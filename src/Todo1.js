@@ -7,6 +7,7 @@ function Todo1() {
   const[todoEdit,setTodoedit]=useState(null)
 const[editText,setEditText]=useState("")
   const[search,setSearch]=useState('');
+
   function handleSubmit(e){
     e.preventDefault();
   }
@@ -33,7 +34,7 @@ const[editText,setEditText]=useState("")
     </div>
     <div className="subHeading">
       <br />
-      <h2>Whoop, it's 🌝 ☕ </h2>
+      {/* <h2>Whoop, it's{ 🌝 ☕ </h2> */}
       
     </div>
 
@@ -126,11 +127,12 @@ const[editText,setEditText]=useState("")
           className="fas fa-times"></i>
         </div>
       </div>)})}
-
+      <h1>Completed Task</h1>
       { toDos.map((obj)=>{
         if(obj.status){
           return(
           <div>
+           
             <ul>
               <li><h3>{obj.text}</h3></li>
 

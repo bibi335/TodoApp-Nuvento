@@ -1,8 +1,12 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import './Register.css'
+import { useNavigate } from "react-router-dom";
+
 
 function Register() {
+  let navigate = useNavigate();
+
     const formik = useFormik({
         initialValues: {
           firstName: '',
@@ -30,6 +34,7 @@ function Register() {
     
           alert(JSON.stringify(obj1, null, 2));
           alert("Register")
+          navigate(`/todo`);
         },
       });
       

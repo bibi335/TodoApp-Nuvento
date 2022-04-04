@@ -1,5 +1,7 @@
 import React from 'react'
 import{useState}from'react';
+import Navbar from './Navbar';
+
  import './Tddo1.css';
 function Todo1() {
     const[toDos,setToDos]=useState([])
@@ -29,6 +31,7 @@ const[editText,setEditText]=useState("")
   
     return (
         <div className="body">
+          <Navbar/>
              <div className="mainHeading">
       <h1>ToDo List</h1>
     </div>

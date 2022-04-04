@@ -2,6 +2,8 @@ import React from 'react';
 import { useFormik } from 'formik';
 import './Register.css'
 import { useNavigate } from "react-router-dom";
+import Navbar from './Navbar';
+
 
 
 function Register() {
@@ -40,6 +42,8 @@ function Register() {
       
     return (
         <div className="form-group">
+                  <Navbar />
+
             <h1>Register form</h1>
             <br/>
             <form onSubmit={formik.handleSubmit}>

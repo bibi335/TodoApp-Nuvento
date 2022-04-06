@@ -10,7 +10,7 @@ function Navbar() {
                 <li><Link to='/dash'>Dashboard</Link></li>
                 <li><Link to='/todo'>Todo</Link></li>
                 <li><Link to='/graph'>Graph</Link></li>
-                {/* <li><Link to="/activate">Activate</Link></li>                 */}
+                {/* <li><Link to="/activate">Activate</Link></li>   */}
             </ul>
         </div>
     )

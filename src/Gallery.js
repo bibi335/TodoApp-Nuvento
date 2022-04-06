@@ -3,7 +3,7 @@ import './dash.css'
 function Gallery() {
     return (
         <div>
-               {/* ---------------------------------Gal */}
+               {/* ---------------------------------Gallery-------*/}
         <div className="gallery">
   <a target="_blank" href="img_5terre.jpg">
     <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="600" height="400"/>

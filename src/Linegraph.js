@@ -78,7 +78,7 @@ function Linegraph() {
         <div>
              <LineChart
           width={850}
-          height={250}
+          height={260}
           data={data}
           margin={{
             top: 5,

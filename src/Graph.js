@@ -18,7 +18,7 @@ function Graph() {
     return (
         <div>
    
-    <BarChart width={930} height={600} data={data}>
+    <BarChart width={930} height={601} data={data}>
     <XAxis dataKey="name" stroke="white" />
     <YAxis />
     <Tooltip wrapperStyle={{ width: 100, backgroundColor: 'yellow' }} />

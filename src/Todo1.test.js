@@ -11,7 +11,7 @@ expect(test).toBe(true);
 
 })
 test("input todo", () => {
-    const todo1 = [{ id: 1, done:true, text: "Buy Milk" }];
+    const todo1 = [{ id: 1, done:true, text: "BuyMilk" }];
    
   
     expect(todo1).toEqual([{ id: 1, done: true, text: "Buy Milk" }]);

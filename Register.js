@@ -1,8 +1,14 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import './Register.css'
+import { useNavigate } from "react-router-dom";
+import Navbar from './Navbar';
+
+
 
 function Register() {
+  let navigate = useNavigate();
+
     const formik = useFormik({
         initialValues: {
           firstName: '',
@@ -30,11 +36,14 @@ function Register() {
     
           alert(JSON.stringify(obj1, null, 2));
           alert("Register")
+          navigate(`/todo`);
         },
       });
       
     return (
         <div className="form-group">
+                  <Navbar />
+
             <h1>Register form</h1>
             <br/>
             <form onSubmit={formik.handleSubmit}>

@@ -1,0 +1,22 @@
+li {
+    display: inline;
+    float: left;
+    display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  width:22%;
+  text-decoration: blue;
+
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  li a:hover {
+    background-color: rgb(39, 4, 4);
+  }
+  
